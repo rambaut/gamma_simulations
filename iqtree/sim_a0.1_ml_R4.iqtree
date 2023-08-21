@@ -1,0 +1,213 @@
+IQ-TREE 2.2.0 COVID-edition built Jun  1 2022
+
+Input file name: alpha_0.1.nex
+Type of analysis: tree reconstruction
+Random seed number: 268597
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 62 sequences with 10000 nucleotide sites
+Number of constant sites: 5834 (= 58.34% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 5834 (= 58.34% of all sites)
+Number of parsimony informative sites: 3652
+Number of distinct site patterns: 4030
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: HKY+F+R4
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 1.0019
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 1.0019
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2532
+  pi(C) = 0.2562
+  pi(G) = 0.2448
+  pi(T) = 0.2458
+
+Rate matrix Q:
+
+  A   -0.9958    0.3414    0.3268    0.3275
+  C    0.3375   -0.9919    0.3262    0.3282
+  G    0.3381    0.3414    -1.007    0.3275
+  T    0.3375    0.3421    0.3262    -1.006
+
+Model of rate heterogeneity: FreeRate with 4 categories
+Site proportion and rates:  (0.6474,0.007297) (0.14,0.3489) (0.1029,1.633) (0.1097,7.097)
+
+ Category  Relative_rate  Proportion
+  1         0.007297       0.6474
+  2         0.3489         0.14
+  3         1.633          0.1029
+  4         7.097          0.1097
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -216496.5236 (s.e. 2997.3223)
+Unconstrained log-likelihood (without tree): -49386.4050
+Number of free parameters (#branches + #model parameters): 131
+Akaike information criterion (AIC) score: 433255.0472
+Corrected Akaike information criterion (AICc) score: 433258.5519
+Bayesian information criterion (BIC) score: 434199.6018
+
+Total tree length (sum of branch lengths): 15.6671
+Sum of internal branch lengths: 4.7696 (30.4438% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Ailuropodamelanoleuca' is drawn at root
+
++------------------------Ailuropodamelanoleuca
+|
+|                      +--Ursusmaritimus
+|               +------|
+|               |      +--Ursusarctos
+|            +--|
+|            |  |     +-------Ursusthibetanus
+|            |  |  +--|
+|            |  |  |  +------Ursusamericanus
+|            |  +--|
+|            |     +-------Helarctosmalayanus
+|   +--------|
+|   |        +---------Melursusursinus
++---|
+|   +-------------------Tremarctosornatus
+|
+|                                   +--------------Spilogaleputorius
+|                      +------------|
+|                      |            +--------------Mephitismephitis
+|                   +--|
+|                   |  +------------------------------Ailurusfulgens
+|                +--|
+|                |  |         +-----------------------Taxideataxus
+|                |  |  +------|
+|                |  |  |      |           +--------------Gulogulo
+|                |  |  |      |     +-----|
+|                |  |  |      |     |     |         +---Martesamericana
+|                |  |  |      |     |     +---------|
+|                |  |  |      |     |               +--Martesmelampus
+|                |  |  |      |  +--|
+|                |  |  |      |  |  |     +---------------Enhydralutris
+|                |  |  |      |  |  |  +--|
+|                |  |  |      |  |  |  |  +--------------Lontracanadensis
+|                |  |  |      |  |  +--|
+|                |  |  |      |  |     +-----------------Mustelavison
+|                |  |  |      +--|
+|                |  |  |         +---------------------Melesmeles
+|                |  +--|
+|                |     +------------------------------Procyonlotor
+|             +--|
+|             |  |                         +----------Monachusschauinslandi
+|             |  |                      +--|
+|             |  |                      |  +-----------Monachusmonachus
+|             |  |                  +---|
+|             |  |                  |   |          +--Miroungaleonina
+|             |  |                  |   |  +-------|
+|             |  |                  |   |  |       +---Miroungaangustirostris
+|             |  |                  |   +--|
+|             |  |                  |      |        +----Leptonychotesweddellii
+|             |  |                  |      |     +--|
+|             |  |                  |      |     |  +----Hydrurgaleptonyx
+|             |  |                  |      |  +--|
+|             |  |                  |      |  |  +-------Lobodoncarcinophaga
+|             |  |                  |      +--|
+|             |  |                  |         +-------Ommatophocarossii
+|             |  |        +---------|
+|             |  |        |         |  +-------------Erignathusbarbatus
+|             |  |        |         +--|
+|             |  |        |            |   +---------Cystophoracristata
+|             |  |        |            +---|
+|             |  |        |                |                +--Phocasibirica
+|             |  |        |                |             +--|
+|             |  |        |                |             |  +--Phocahispida
+|             |  |        |                |          +--|
+|             |  |        |                |          |  +--Phocacaspica
+|             |  |        |                |       +--|
+|             |  |        |                |       |  +--Halichoerusgrypus
+|             |  |        |                |  +----|
+|             |  |        |                |  |    |  +--Phocalargha
+|             |  |        |                |  |    +--|
+|             |  |        |                |  |       +--Phocavitulina
+|             |  |        |                +--|
+|             |  |        |                   |  +----Phocagroenlandica
+|             |  |        |                   +--|
+|             |  |        |                      +----Phocafasciata
+|             |  +--------|
+|             |           |                     +-------Otariabyronia
+|             |           |                  +--|
+|             |           |                  |  |  +------Arctocephaluspusillus
+|             |           |                  |  +--|
+|             |           |                  |     |     +-----Phocarctoshookeri
+|             |           |                  |     |  +--|
+|             |           |                  |     |  |  +-----Neophocacinerea
+|             |           |                  |     +--|
+|             |           |                  |        |     +--Arctocephalusforsteri
+|             |           |                  |        |  +--|
+|             |           |                  |        |  |  +--Arctocephalusaustralis
+|             |           |                  |        +--|
+|             |           |                  |           +----Arctocephalustownsendi
+|             |           |             +----|
+|             |           |             |    |  +-----Eumetopiasjubatus
+|             |           |             |    +--|
+|             |           |             |       +----Zalophuscalifornianus
+|             |           |    +--------|
+|             |           |    |        +------------Callorhinusursinus
+|             |           +----|
+|             |                +-----------------------Odobenusrosmarus
++-------------|
+              |                             +---------Alopexlagopus
+              |                   +---------|
+              |                   |         +--------Vulpesvulpes
+              |  +----------------|
+              |  |                |                +---Canislupus
+              |  |                +----------------|
+              |  |                                 +---Canislatrans
+              +--|
+                 |          +----------------------Herpestesauropunctatus
+                 +----------|
+                            |              +------------Felissilvestris
+                            |          +---|
+                            |          |   |  +-----------Lynxcanadensis
+                            |          |   +--|
+                            |          |      |  +--------Acinonyxjubatus
+                            |          |      +--|
+                            |          |         +-------Pumaconcolor
+                            +----------|
+                                       |   +-----------Neofelisnebulosa
+                                       +---|
+                                           |     +-------Pantherapardus
+                                           |  +--|
+                                           |  |  +-------Unciauncia
+                                           +--|
+                                              +----------Pantheratigris
+
+Tree in newick format:
+
+(Ailuropodamelanoleuca:0.4331586874,((((Ursusmaritimus:0.0378341769,Ursusarctos:0.0391117920):0.1351663548,((Ursusthibetanus:0.1368988466,Ursusamericanus:0.1215816312):0.0189000338,Helarctosmalayanus:0.1518124917):0.0095129796):0.0150492077,Melursusursinus:0.1707843538):0.1650567202,Tremarctosornatus:0.3461167029):0.0691227465,(((((Spilogaleputorius:0.2639891369,Mephitismephitis:0.2680559509):0.2382278165,Ailurusfulgens:0.5450262009):0.0471108588,((Taxideataxus:0.4102844791,(((Gulogulo:0.2629595267,(Martesamericana:0.0823885354,Martesmelampus:0.0611016814):0.1740527124):0.1039011037,((Enhydralutris:0.2806519024,Lontracanadensis:0.2607992551):0.0503180504,Mustelavison:0.3079492232):0.0440345070):0.0087648040,Melesmeles:0.3907227671):0.0366068102):0.1259392936,Procyonlotor:0.5352701164):0.0357546689):0.0519976596,((((Monachusschauinslandi:0.2041176601,Monachusmonachus:0.2164277940):0.0376127135,((Miroungaleonina:0.0573140902,Miroungaangustirostris:0.0689855921):0.1417209372,(((Leptonychotesweddellii:0.0990690922,Hydrurgaleptonyx:0.0912521008):0.0451784430,Lobodoncarcinophaga:0.1495223451):0.0197472967,Ommatophocarossii:0.1458485054):0.0629099818):0.0325123217):0.0727826939,(Erignathusbarbatus:0.2516929748,(Cystophoracristata:0.1863192975,(((((Phocasibirica:0.0458107163,Phocahispida:0.0407515271):0.0078337058,Phocacaspica:0.0469655922):0.0033198555,Halichoerusgrypus:0.0523121821):0.0052045262,(Phocalargha:0.0375112514,Phocavitulina:0.0379138122):0.0233976768):0.0958371485,(Phocagroenlandica:0.0998970825,Phocafasciata:0.1011794012):0.0524916699):0.0318471340):0.0810193023):0.0554570396):0.1728121048,((((Otariabyronia:0.1431101687,(Arctocephaluspusillus:0.1250585716,((Phocarctoshookeri:0.1181176795,Neophocacinerea:0.1092478087):0.0152418817,((Arctocephalusforsteri:0.0425255685,Arctocephalusaustralis:0.0412988792):0.0561501917,Arctocephalustownsendi:0.0976626613):0.0341310960):0.0107392145):0.0093572883):0.0186474733,(Eumetopiasjubatus:0.1121784985,Zalophuscalifornianus:0.0972756924):0.0496929696):0.0955351711,Callorhinusursinus:0.2269073068):0.1573786354,Odobenusrosmarus:0.4105730477):0.0861049546):0.1542017886):0.0307786463,(((Alopexlagopus:0.1770111705,Vulpesvulpes:0.1608086990):0.1773203991,(Canislupus:0.0697066136,Canislatrans:0.0811699008):0.2966238190):0.2923689697,(Herpestesauropunctatus:0.4000399189,((Felissilvestris:0.2306535121,(Lynxcanadensis:0.2074021018,(Acinonyxjubatus:0.1566107644,Pumaconcolor:0.1405974135):0.0374150496):0.0372942132):0.0705641141,(Neofelisnebulosa:0.2216061676,((Pantherapardus:0.1427089053,Unciauncia:0.1453957236):0.0462909105,Pantheratigris:0.2003604297):0.0336513960):0.0839437753):0.1969042055):0.1918203034):0.0626420982):0.2536402344);
+
+TIME STAMP
+----------
+
+Date and time: Sat Jul  1 18:54:43 2023
+Total CPU time used: 84.5219 seconds (0h:1m:24s)
+Total wall-clock time used: 84.9295 seconds (0h:1m:24s)
+
