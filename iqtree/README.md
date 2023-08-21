@@ -6,18 +6,6 @@ Data simulated using continuous gamma with alpha = 0.1, 1.0 or 10.0 (`a0.1`, etc
 
 ### Summary of results
 
------Simulation----
-
-Sequence Generator - seq-gen Version 1.3.2
-
-Tree - test_1.0.tf (carnivore mtDNA tree, ultrametric)
-Tree height: 1.0
-Total tree length: 21.9254
-
-seq-gen -l 10000 -a xxx -on -mHKY test_1.0.tf > alpha_xxx.nex
-
-----Analysis----
-
 Simulated: 
 no rate heterogeneity
 
